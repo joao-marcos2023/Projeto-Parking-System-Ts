@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/parking.css">
+    <title>Parking System</title>
+</head>
+<body>
+
+    <section class="box">
+
+        <h1>Controle de estacionamento</h1>
+
+        <div class="box-content">
+            <input type="text" id="name" placeholder="Digite o nome do veículo" autocomplete="off">
+            <input type="text" id="plate" placeholder="Digite a placa do veículo" autocomplete="off" >
+            <button id="add">Cadastrar</button>
+        </div>
+
+    </section>
+
+    <section class="table">
+
+        <table class="table-content">
+
+            <thead>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Entrada</th>
+                <th>Remover</th>
+            </thead>
+
+            <tbody id="carParking">
+                <tr></tr>
+                <tr></tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <script src="src/ts/parking.js"></script>
+</body>
+</html>
